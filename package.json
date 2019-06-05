@@ -1,0 +1,22 @@
+{
+  "name": "bootstrap-vue-api-generator",
+  "version": "0.0.1",
+  "private": false,
+  "description": "API generator for Bootstrap-Vue component library",
+  "main": "dist/api.js",
+  "scripts": {
+    "debug": "babel-node inspect src/index.js",
+    "build": "node src/index.js"
+  },
+  "author": "Guillaume Fournier",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap-vue": "^2.0.0-rc.22",
+    "deepmerge": "^2.2.1",
+    "vue": "^2.6.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
